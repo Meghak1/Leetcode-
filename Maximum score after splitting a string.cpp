@@ -2,7 +2,7 @@ class Solution {
 public:
     int maxScore(string s) {
     int maxScore=0;
-    int lzero=0,rones0;
+    int lzero=0,rones=0;
     for(char c:s) {
         if(c=='1') {
             rones++;
