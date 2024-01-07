@@ -7,13 +7,13 @@ public:
 
     for(int i=0;i<n;++i) {
         for(int j=0;j<i;++j) {
-           long long difference=static_cast<long   long>(nums[i])-nums[j];
-          
+           long difference=long(nums[i])-nums[j];
            result+=dp[j][difference];
            dp[i][difference]+=dp[j][difference]+1;
           
            }
         }
+        
      return result;
    }
 };
