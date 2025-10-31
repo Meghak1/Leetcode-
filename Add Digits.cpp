@@ -14,3 +14,15 @@ num=result;
 return num;
 }
 };
+
+
+##updated code
+
+return 1+(num-1)%9.....(1)
+
+ex: if num=38
+  38-1=37
+  37%9=1
+  (1)->1+1=2
+
+  
